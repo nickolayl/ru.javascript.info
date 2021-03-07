@@ -166,7 +166,7 @@ xhr.responseType = 'json';
 
 xhr.send();
 
-// тело ответа {"сообщение": "Привет, мир!"}
+// тело ответа {"message": "Привет, мир!"}
 xhr.onload = function() {
   let responseObj = xhr.response;
   alert(responseObj.message); // Привет, мир!
